@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - EMSarp Music And I.T Services</title>
+  <link rel="stylesheet" href="projectStyle.css"/>
+</head>
+<body>
+  <header>
+    <h1>EMSarp Music And I.T Services</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projectAboutP.html">About</a>
+      <a href="projectService.html">Services</a>
+      <a href="projectContactP.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <center>
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <label for="eventType"></label>
+      <select id="eventType" name="eventType" required>
+        <option value="">Select Event </option>
+        <option value="Wedding">Wedding</option>
+        <option value="Birthday">Birthday</option>
+        <option value="Corporate">Corporate</option>
+        <option value="Concert">Concert</option>
+        <option value="Other">Other</option>
+      </select>  
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit"class="submit-btn">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </center>
+  </form>
+  
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EMSarp Music And I.T Services. All rights reserved.</p>
+  </footer>
+
+  <script src="projectScript.js"></script>
+</body>
+</html>
